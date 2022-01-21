@@ -17,10 +17,10 @@ background-image:url("https://cdn.vox-cdn.com/thumbor/bpuJOgnveE6pQCSwF-F3-R9doU
 
 <!-- Navigation Bar -->
 <div class="w3-bar w3-black w3-large" >
-  <a href="home.jsp" class="w3-bar-item w3-button  w3-mobile"><img src="../images/moonc.png" width="50px" height="50px"></a>
-  <a href="allrequests.jsp" class="w3-bar-item w3-button w3-mobile">Les Reservations</a>
-  <a href="rooms.jsp" class="w3-bar-item w3-button w3-mobile">Chambres</a>
-  <a href="about.jsp" class="w3-bar-item w3-button w3-mobile">A Propos</a>
+  <a href="Acceuil.jsp" class="w3-bar-item w3-button  w3-mobile"><img src="../images/moonc.png" width="50px" height="50px"></a>
+  <a href="reservations.jsp" class="w3-bar-item w3-button w3-mobile">Les Reservations</a>
+  <a href="Chambres.jsp" class="w3-bar-item w3-button w3-mobile">Chambres</a>
+  <a href="APropos.jsp" class="w3-bar-item w3-button w3-mobile">A Propos</a>
  
   <a href="../logout.jsp" id="user_name_div" title="logout" class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile"><%= session.getAttribute( "LogedInUserName" ) %></a>
   <script type="text/javascript">
