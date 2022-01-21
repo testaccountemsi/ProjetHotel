@@ -1,4 +1,4 @@
-<%@page import="connection.DB_Connection"%>
+<%@page import="connection.Connnection"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
@@ -135,7 +135,7 @@ input{
 						String Countrow="";
 						String CurrentUser = session.getAttribute("LogedInUserName").toString();
 						
-						DB_Connection obj_DB_Connection = new DB_Connection();
+						Connnection obj_DB_Connection = new Connnection();
 						Connection connection = obj_DB_Connection.get_connection();
 						statement = connection.createStatement();
 						String sql = "SELECT COUNT(id) FROM rooms Where RequestMadeBy = '" + CurrentUser + "'";
@@ -166,7 +166,7 @@ input{
 						Statement statement = null;
 						ResultSet resultSet = null;
 
-						DB_Connection obj_DB_Connection = new DB_Connection();
+						Connnection obj_DB_Connection = new Connnection();
 						Connection connection = obj_DB_Connection.get_connection();
 						statement = connection.createStatement();
 						String sql = "SELECT * FROM rooms Where RequestMadeBy = '" + CurrentUser + "' ORDER BY dateNtime ASC";
