@@ -193,7 +193,7 @@ input{
 							</tr>
 						</table>
 						
-						<form action="../UpdateMyRequest" method="post">
+						<form action="../Modifier" method="post">
 						<ul>
 							<li>Personnes : 
 								<b id="Adults_display_val_<%=resultSet.getString("id")%>"><%=resultSet.getString("Adults")%></b>
@@ -232,7 +232,7 @@ input{
 							<button type="submit" class="btn success" id="save_btn_<%=resultSet.getString("id")%>" 
 								style="margin-left: 20px; margin-bottom: 20px; display: none;">Sauvegarder</button>
 						</form>
-						<form action="../DeletRequestByUser" method="post">
+						<form action="../AnnulerReservation" method="post">
 							<input style="display: none;" type="text" name="req_id"
 								value='<%=resultSet.getString("id")%>'>
 							<button type="submit" class="btn danger" id="delete_btn_<%=resultSet.getString("id")%>"

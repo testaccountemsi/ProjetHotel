@@ -38,7 +38,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     
      
     
-      <form action="../ReserverARoom" method="post">
+      <form action="../Reserver" method="post">
         <div class="w3-row-padding" style="margin:0 -16px;">
           <div class="w3-half w3-margin-bottom">
             <label><i class=""></i> date Deebut</label>
