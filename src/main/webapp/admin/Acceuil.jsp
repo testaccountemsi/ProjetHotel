@@ -22,7 +22,7 @@ background-image:url("https://cdn.vox-cdn.com/thumbor/bpuJOgnveE6pQCSwF-F3-R9doU
   <a href="Chambres.jsp" class="w3-bar-item w3-button w3-mobile">Chambres</a>
   <a href="APropos.jsp" class="w3-bar-item w3-button w3-mobile">A Propos</a>
  
-  <a href="../logout.jsp" id="user_name_div" title="logout" class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile"><%= session.getAttribute( "LogedInUserName" ) %></a>
+   <a href="../Deconnection.jsp" id="user_name_div" title="logout" class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile"><%= session.getAttribute( "LogedInUserName" ) %></a>
   <script type="text/javascript">
     var pp = document.getElementById('user_name_div').innerText;
     if(pp == "null"){

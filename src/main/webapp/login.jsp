@@ -139,7 +139,7 @@ session.invalidate();
     <div class="loginbox">
         <img src="images/moonc.png" class="avatar">
         <h1>Se connecter</h1>
-        <form action="LoginServerlet" method="post">
+        <form action="Login" method="post">
             <p>Nom d'utilisateur</p>
             <input type="text" name="user">
             <p>Mot de passe</p>

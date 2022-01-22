@@ -81,14 +81,14 @@ public class Login extends HttpServlet {
             		session.setAttribute("LogedInManagerName", username);
             		
             		out.println("<script type=\"text/javascript\">");
-                    out.println("location='admin/acceuil.jsp';");
+                    out.println("location='admin/Acceuil.jsp';");
                     out.println("</script>");
             	}
             	else {
             		session.setAttribute("LogedInUserName", username);
             		
             		out.println("<script type=\"text/javascript\">");
-                    out.println("location='user/home.jsp';");
+                    out.println("location='Utilisateur/Acceuil.jsp';");
                     out.println("</script>");
             	}
                 
